@@ -1,0 +1,67 @@
+mjml
+    mj-head
+        mj-title Lettre Ecosup Assurance - Mars 2025
+        mj-raw.
+            <meta charset="UTF-8" />
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-all(font-family='Arial, Helvetica, sans-serif')/
+            //-font
+            mj-class(name="T+2" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" line-height="16px")/
+            mj-class(name="T+1" font-family="Arial, Helvetica, sans-serif" font-size="24px" font-weight="400" line-height="26px")/
+            mj-class(name="T700" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="700" line-height="20px")/
+            mj-class(name="T400" font-family="Arial, Helvetica, sans-serif" font-size="16px" font-weight="400" line-height="20px")/
+            mj-class(name="T-1-700" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="700" line-height="16px")/
+            mj-class(name="T-1-400" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" line-height="16px")/
+            mj-class(name="T-2-300" font-family="Arial, Helvetica, sans-serif" font-size="10px" font-weight="300" line-height="14px")/
+            //-color
+            mj-class(name="cA+2" color="#944694")/
+            mj-class(name="cA+1" color="#684092")/
+            mj-class(name="cT-0" color="#45546e")/
+            mj-class(name="cT-1" color="#fcfcfc")/
+            mj-class(name="bgcG" background-color="#eff1f5")/
+        mj-breakpoint(width='480px')/
+    mj-body(background-color='#E7ECf2')
+        //- block content
+        block content
+        //- block sponsors
+        block sponsors
+            include ../includes/_sponsors
+        //- block hero
+        block hero
+            include ../includes/_hero
+        //- block Edito
+        block edito
+            include ../includes/_edito
+        //- block salon Opco
+        mj-section(padding="5px" background-color="#E7ECf2")
+        block salonOpco
+            include ../includes/_salonOpco
+        //-block job dating alternance
+        mj-section(padding="5px" background-color="#E7ECf2")
+        block job Dating
+            include ../includes/_jobDating
+        //- block cvbook
+        mj-section(padding="5px" background-color="#E7ECf2")
+        block cvbook
+            include ../includes/_cvbook
+        //-block salon Lille Grand Palais    
+        mj-section(padding="5px" background-color="#E7ECf2")
+        block lilleSalon
+            include ../includes/_lilleSalon
+        //- block agenda
+        mj-section(padding="5px" background-color="#E7ECf2")
+        block agenda 
+            include ../includes/_agenda
+        mj-section(padding="5px" background-color="#E7ECf2")
+        //-block partenaires
+        block partenaires
+            include ../includes/_partenaires
+        //- block footer
+        block footer
+            include ../includes/_footer
